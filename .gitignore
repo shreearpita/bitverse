@@ -1,0 +1,27 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# Generated artwork
+output/
+input/
+
+# Experimental dithering module
+src/core/dithering.py
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
